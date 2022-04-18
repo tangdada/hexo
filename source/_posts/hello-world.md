@@ -725,7 +725,7 @@ export default router
 为了更加快速的实现业务功能，我们可以引入生态中开源的UI组件库，组件库中包含了按钮、表格、表单等常用基础组件。
 
 组件库在前端开发生态中位置：
-![前端体系层级.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6f7b0e914eed478bafbe68838800a43b~tplv-k3u1fbpfcp-watermark.image?)
+![前端体系层级.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/44b2f2fb406947d4aba23fb159521c56~tplv-k3u1fbpfcp-watermark.image?)
 
 这里我们使用饿了么的组件库[element-ui@2.15.7](https://element.eleme.cn/#/zh-CN/component/installation)，在项目根目录下运行如下命令，下载组件库代码包：
 `npm i element-ui -S`。
