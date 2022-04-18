@@ -22,7 +22,7 @@ HTML是文字，CSS是颜料，JavaScript是笔和橡皮。
 
 ## 1.2 HTML
 
-HTML全称为超文本标记语言（Hyper Text Markup Language），是一种标记语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散的Internet上的资源连接为一个逻辑整体。
+HTML全称为超文本标记语言（Hyper Text Markup Language），是一种标记语言。它包括一系列标签，通过这些标签可以将网络上的文档格式统一，使分散在Internet上的资源连接为一个逻辑整体。
 
 在WWW的使用中，两项重要的创造发挥了关键的作用。这两项技术是 **超文本(hyper text)** 和 **图形用户界面(GUI)** 。超文本是一种组织信息的方式，它通过超级链接方法将文本中的文字、图表与其他信息媒体相关联。
 
@@ -39,7 +39,7 @@ HTML全称为超文本标记语言（Hyper Text Markup Language），是一种�
 
 **浏览器**
 
-1990年Tim Berners-Lee在发明html的同时也发明了世界上第一款浏览器Nexus。
+1990年Tim Berners-Lee在发明HTML的同时也发明了世界上第一款浏览器Nexus。
 
 浏览器是用来检索、展示以及传递Web信息资源的应用程序。它使用统一资源标识符( Uniform Resource Identifier，URI)来标记Web信息资源。通过浏览器的图形用户界面，可以把HTML文件以一种易读的方式展示出来。
 
@@ -51,7 +51,7 @@ HTML全称为超文本标记语言（Hyper Text Markup Language），是一种�
 
 ## 1.3 JavaScript
 
-1995 年，当时就职于网景公司的 Brendan Eich 迫于公司的压力，只花了十天就设计了 JS 的最初版本，并命名为 Mocha。后来Netscape与Sun合作，改名为JavaScript。JavaScript是一种解释型的脚本语言，C、C++等语言先编译后执行，而JavaScript是在程序的运行过程中逐行进行解释。
+1995 年，当时就职于网景公司的 Brendan Eich 迫于公司的压力，只花了十天就设计了 JS 的最初版本，并命名为 Mocha。后来Netscape与Sun合作，改名为JavaScript。JavaScript是一种解释型的脚本语言，C、C++等语言是先编译后执行，而JavaScript是在程序的运行过程中逐行进行解释。
 
 完整的JavaScript实现包含三个部分：ECMAScript，文档对象模型（DOM），浏览器对象模型（BOM）。打开chrome控制台，即可编写JS代码：
 ```js
@@ -92,7 +92,7 @@ span {
 ### 静态页
 静态页的阶段不长，自1990年HTML发明开始至1994年W3C成立，之后很快就出现了动态开发HTML的语言。
 
-世界上第一个web网页（被恢复的副本）：http://info.cern.ch/ ，其代码如下：
+世界上第一个Web网页（被恢复的副本）：http://info.cern.ch/ ，其代码如下：
 ```html
 <html>
     <head></head>
@@ -150,9 +150,9 @@ cd aspnetcoreapp
 dotnet watch run
 ```
 
-修改项目中Pages文件下.cshtml文件，代码如下：
+修改项目中Pages文件下Index.cshtml文件，代码如下：
 
-```asp.net
+```java
 @page
 @model IndexModel
 @{
@@ -220,7 +220,7 @@ dotnet watch run
 
 ## 2.2 前后端分离
 
-我们可以参考下国内什么时候出现前端开发的职位。我在百度上以前端和招聘两个关键字搜索到最早的[前端招聘信息](https://www.cnblogs.com/andywu/articles/1187276.html)在2008年左右。
+我们可以参考下国内什么时候出现前端开发的职位。我在百度上以前端和招聘两个关键字搜索到最早的 [前端招聘信息](https://www.cnblogs.com/andywu/articles/1187276.html) 在2008年左右。
 
 当时对于Web前端开发的职位要求：
 > 1.熟悉 ActionScript 面向对象的编程，能独立完成 Flash 前台脚本及后台动作实现互动功能编程；
@@ -244,7 +244,7 @@ dotnet watch run
 > 10.对dhtml，javascript，xml等有充分的了解，能熟练使用javascript进行客户端编程。
 
 [2010年各大厂招聘前端开发的职位描述](http://uicss.cn/fed-position-descriptions/)，包括阿里、腾讯、网易等。可以大概看出当时对于前端的定义和技能要求：\
-这段时期属于一个承上启下的阶段，要会使用ASP/PHP/JSP等动态语言，也要会使用js库（jquery），甚至还要会使用Photoshop和通过ActionScript制作Flash动画。
+这段时期属于一个承上启下的阶段，要会使用ASP/PHP/JSP等动态语言，也要会使用js库（jQuery），甚至还要会使用Photoshop和通过ActionScript制作Flash动画。
 
 我认为职责的分离还是为了业务的需要，一方面用户产生了日益增长的对交互体验提升的需要，另一方面后端产生了日益增长的业务量压力的技术需要，前后端分离后，各自专注于解决不同的业务痛点。
 
@@ -403,15 +403,15 @@ dotnet watch run
 这里需要利用 [Node.js](http://nodejs.cn/) 启动一个http服务，Node.js安装完成之后在项目根目录下命令行执行：\
 `npm install http-server -g`\
 然后执行：
-`http-server`
+`http-server`，项目就运行起来啦。
 
 ## 2.3 工程化框架和构建生态
 
 主要指 MVC和MVVM开发框架。
 
-目前Web前端岗位主流市场正处于这个阶段，也可以说是这个阶段如日中天的时候。最大的特点是开发框架从开发者手中接管了对DOM操作（DOM节点的CRUD）的工作，并且还进行了优化，开发者的精力可以更加倾向于业务逻辑的编写。
+目前Web前端岗位主流市场正处于这个阶段，也可以说是这个阶段如日中天的时候。最大的特点是开发框架从开发者手中接管了对DOM操作（DOM节点的CRUD）的工作，并且还进行了优化，开发者的精力可以更加倾注于业务逻辑的编写。
 
-MVC指模型M、视图V、控制器C；MVVM指模型M、视图V、视图模型VM，类似于Java的springMVC，其中比较有代表性的有3个框架：
+MVC由模型M、视图V、控制器C组成；MVVM由模型M、视图V、视图模型VM组成，类似于Java的springMVC，其中比较有代表性的有3个框架：
 
 | 名称| 类型 | 维护者 | 时间 | 开源 |衍生框架| 关注度|
 | --- | --- |---|---|---|---|---|
@@ -429,7 +429,7 @@ React 官方文档中对构建生态的概括非常准确，一组 JavaScript �
 >
 >一个编译器，例如 Babel。它能让你编写的新版本 JavaScript 代码，在旧版浏览器中依然能够工作。
 
-![构建流程.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3a5a969f1f094573bfdafb2c095aa74d~tplv-k3u1fbpfcp-watermark.image?)
+![构建流程.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/04ff16d98d354e2d95e1bb06122836ca~tplv-k3u1fbpfcp-watermark.image?)
 
 ### React
 
@@ -553,19 +553,20 @@ export default class App extends React.Component {
 ```
 对比jQuery的例子可以发现，DOM的`empty()`、`append()`等操作没有了，取而代之的是`setState()`方法。也就是我们只需要控制数据就可以实现页面的变更了，不再需要对具体的DOM节点进行增删改。
 
-最后，将之前一个例子中的css样式代码拷贝到App.css中即可。
+最后，将之前一个例子中的CSS样式代码拷贝到App.css中即可。
 
 当然这只是一个学习的例子，完整的项目还需要更加工程化的结构，下面我们来搭建一个相对完善的前端系统。
 
 # 三、实战
 
-前端的前辈们在上面各种开发框架的基础上又叠加出更加全面的生态，我们可以方便的通过脚手架的方式快速的搭建起一个标准的项目。在这里我们可以使用 `npm` 来搭建项目，它类似于Java生态中的Maven，npm会随着Node.js的安装顺带一起安装到你的电脑上。你可以在命令行通过 `npm -v` 查看版本信息。
+前端的前辈们在上面各种开发框架的基础上又叠加出更加全面的生态，我们可以方便的使用脚手架快速的搭建起一个标准的项目。在这里我们需要一个包管理工具 `npm` ，它类似于Java生态中的Maven，npm会随着Node.js的安装顺带一起安装到你的电脑上。你可以在命令行通过 `npm -v` 查看版本信息。
 
 目前跟React比较，[Vue.js](https://v3.cn.vuejs.org/) 提供了更加集成化的搭建项目的脚手架。这里我们使用[vue-cli](https://cli.vuejs.org/zh/guide/)，来搭建一个《上下班调研系统》。
 
-它是一个 **SPA（单页面应用）**，即所有前端页面资源会一次性加载到客户端；与之对应的是多页应用，即每次只返回多个页面之中被请求的子页面资源。
+它是一个 **SPA（单页面应用）**，即所有前端页面资源会一次性加载到客户端；与之对应的是多页应用，即每次只返回多个页面之中被请求的子页面资源（Js、HTML、CSS）。
 
-环境和版本：`@vue/cli 4.5.12`，Vue CLI 4.x 需要 `Node.js >= v8.9`。
+Node.js环境和vue-cli版本：`@vue/cli 4.5.12`，Vue CLI 4.x 需要 `Node.js >= v8.9`。\
+下载脚手架：`npm install -g @vue/cli`
 
 ## 3.1 初始化项目
 命令行执行：`vue create working-hours`
@@ -574,7 +575,7 @@ export default class App extends React.Component {
 
 ![vue-cli-option.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/65d19ab62c6d40b5a1ceb4bd2b4146af~tplv-k3u1fbpfcp-watermark.image?)
 
-在项目根目录下打开命令行，执行 `npm run serve`，浏览器打开命令行显示的地址，就可以看到项目初始的页面。
+在项目根目录下打开命令行，执行 `npm run serve`，浏览器打开控制台显示的地址，就可以看到项目初始的页面了。
 
 ## 3.2 修改首页
 修改文件App.vue和Home.vue，同时添加页面入口。
@@ -677,7 +678,7 @@ body,
 ## 3.4 添加路由
 也就是声明浏览器输入的链接地址和页面文件之间的匹配关系。
 
-修改router/index.js如下：
+修改 router/index.js 如下：
 ```js
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -718,6 +719,8 @@ export default router
 ```
 这时我们点击“上报数据”和“统计”两个超链接，可以看到路由切换的效果。
 
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/720e113415f34462843ba3aa29e51ee5~tplv-k3u1fbpfcp-watermark.image?)
+
 ## 3.5 添加业务代码
 为了更加快速的实现业务功能，我们可以引入生态中开源的UI组件库，组件库中包含了按钮、表格、表单等常用基础组件。
 
@@ -727,7 +730,7 @@ export default router
 这里我们使用饿了么的组件库[element-ui@2.15.7](https://element.eleme.cn/#/zh-CN/component/installation)，在项目根目录下运行如下命令，下载组件库代码包：
 `npm i element-ui -S`。
 
-修改main.js，内容如下：
+修改 main.js 引入组件库，内容如下：
 ```js
 import Vue from 'vue'
 import App from './App.vue'
@@ -748,7 +751,8 @@ new Vue({
 }).$mount('#app')
 ```
 
-修改“上报数据”页面Record.vue，首先下载一个用于发起http请求的js库axios：`npm i axios --save`，代码如下：
+修改“上报数据”页面Record.vue，代码如下：\
+首先下载一个用于发起http请求的js库axios：`npm i axios --save`
 ```js
 <template>
     <div>
@@ -949,8 +953,8 @@ export default {
 </style>
 ```
 
-修改“统计”页面Statistics.vue\
-首先下载一个用于实现图表的js库echarts：`npm install echarts@5.3.2 --save`，代码如下：
+修改“统计”页面Statistics.vue，代码如下：\
+首先下载一个用于实现图表的js库echarts：`npm install echarts@5.3.2 --save`
 ```js
 <template>
     <div class="container" id="chart-box1" v-loading="loading"></div>
@@ -1028,14 +1032,14 @@ export default {
 这样，一个简单的应用就编码完成了。\
 接下来可以命令行运行`npm run build`，把代码编译、压缩成静态文件（根目录下会多出一个dist文件夹），那么怎么把这个页面部署到公网环境，让其他人可以访问到呢？
 
->说明：上面代码中用到的后端服务，通过Node.js + [mongoDB](https://cloud.mongodb.com/)实现，并通过[Vercel](vercel.com)发布到公网。
+>说明：上面代码中用到的后端服务，通过 Node.js + [mongoDB](https://cloud.mongodb.com/) 实现，并通过 [Vercel](vercel.com) 发布到公网。
 
 ## 3.6 发布到公共网络
 将项目部署到公共网络，有以下4种方式。
 
 ### 云服务器
 如果你是商用，复杂，定制的应用服务，最好还是花钱买一个服务器。云服务器厂商包括：Azure、AWS、阿里云、腾讯云、华为云等。在拥有一台服务器后，就可以开始部署了，用于部署服务的Web 应用服务器包括：Tomcat、Nginx、IIS（Windows）等。\
-这里以`Nginx`为例：
+这里以`nginx`为例：
 - 安装nginx，网上有很多在线、离线安装的教程
 - 配置服务入口\
         首先上传上面项目中打包生成的dist文件夹到服务器上，比如上传到服务器上的这个位置：`/opt/web/dist`，然后根据你安装的nginx目录，找到nginx服务配置文件，比如：`/usr/local/nginx/conf/nginx.conf`，在文件http{...}代码块内加入如下代码：
@@ -1056,19 +1060,19 @@ export default {
 
 ### 第三方平台托管
 在web1.0的时代，Web服务几乎是广播式的。那个blog盛行的年代，大家通过个人主页来发布信息，展示自我。\
-第三方平台包括`Github`、`Gitee`、`WordPress`等。Github 提供了 GitHub Pages服务来发布博客页，国内的Gitee类似。这些服务通常还会推荐你使用一些博客模板来生成内容，比如`WorkPress`、`Hexo`等。\
+第三方托管平台有`Github`、`Gitee`、`WordPress`等。Github 提供了 GitHub Pages服务来发布博客页，国内的Gitee类似。这些服务通常还会推荐你使用一些博客模板来生成内容，比如`WorkPress`、`Hexo`等。\
 根据W3Techs2019年12月6号发布的统计数据，使用WordPress（PHP语言）开发的网站占所有网站的1/4。我这里使用 [Hexo](https://hexo.io/zh-cn/) 及它衍生的 hexo-theme-next 主题，半小时即可完成一个博客站点：https://hexo-one-dun.vercel.app/ 。
 
 ### Serverless 提供商
 Serverless平台包括：小程序平台、Vercel等。\
-上面《上下班调研系统》就是通过Vercel部署，访问地址：https://working-hours-tau.vercel.app/ 。
+上面《上下班调研系统》就通过Vercel部署到了公网，访问地址：https://working-hours-tau.vercel.app/ 。
 
 ### CDN服务提供商
-比如通过七牛云、阿里云OSS、腾讯云OSS等进行静态页面托管，只需要给文件资源地址绑定一个域名即可。
+可以通过七牛云、阿里云OSS、腾讯云OSS等进行静态页面托管，只需要给文件资源地址绑定一个域名即可。
 
 # 四、扩张
-随着数字化进程的开展，政府和企业侧需求激增，带来很多的就业岗位需求。再加上Web前端行业的从业门槛不高、终端设备的普遍支持、开发生态的完善等原因，涌现出很多的前端开发人员，前端代码也像苔藓般蔓延到更多的领域。\
-但是如果向自动化、智能化发展还是需要高精尖的设计和开发人员铺路，普通从业人员只做一些打磨和修补的工作。\
+随着数字化进程的开展，政府和企业侧需求激增，带来很多的前端就业岗位。再加上Web前端行业的从业门槛不高、终端设备的普遍支持、开发生态的完善等原因，涌现出很多的前端开发人员，前端代码也像苔藓般蔓延到更多的领域。\
+如果Web前端向自动化、智能化发展的话，还是需要高精尖的设计和开发人员铺路，普通从业人员只做一些打磨和修补的工作。\
 正如吴军老师在《硅谷来信2016》中提到的：
 >在未来的智能时代，真正受益于技术进步的个人可以不超过人口的2%。坦率地讲，仅仅会写几行JavaScript的人不属于我说的2%的行列，这些人恰恰在未来是要被计算机淘汰的。......如果有些人就满足于五年（正常工作大约10000小时）坚持不懈地写JavaScript，非常糟糕，因为这是低水平重复，即便五年后你把它练熟了，可能JavaScript已经过时了，或者是由计算机来写了。
 
@@ -1098,7 +1102,7 @@ server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`)
 })
 ```
-然后在文件目录命令行执行：`node ./server.js` 即可启动一个最简单的api服务。最后浏览器打开控制台输出的链接查看结果。
+然后在文件目录命令行执行：`node ./server.js` 即可启动一个最简单的api服务。最后浏览器打开控制台上显示的链接即可查看运行结果。
 
 #### Egg.js
 Egg.js是一个阿里团队基于Node.js和Koa打造的一个企业级后端服务框架，它是开源的。下面我们使用它来写两个连接mongo数据库的api接口。\
@@ -1113,7 +1117,7 @@ npm i
 // 启动项目
 npm run dev
 ```
-2. 安装mongoDB工具包： `npm i egg-mongoose --save`
+2. 安装mongoDB JavaScript工具库： `npm i egg-mongoose --save`
 3. 在config/plugin.js中注册egg-mongoose\
     内容如下：
     ```js
@@ -1233,7 +1237,7 @@ npm run dev
 目前比较成熟的Web跨端开发的框架包括：React Native、uni-app、taro。
 
 **桌面应用**\
-思路都是使用html+css+js的方式来实现桌面端应用，目前比较流行的框架包括Electron 和 Tauri，其中Electron的技术方案是Chromium + Nodejs，Tauri是采用Webview + Rust语言来实现。
+思路都是使用HTML + CSS + JS的方式来实现桌面端应用，目前比较流行的框架包括Electron 和 Tauri，其中Electron的技术方案是Chromium + Nodejs，Tauri是采用Webview + Rust语言来实现。
 
 ## WebGL
 WebGL是一种在浏览器里展示3D场景和模型的技术。随着硬件设备以及浏览器性能的提升，数字孪生、沉浸式体验等方面的需求。它得到了越来越多的应用。直接使用WebGL进行开发，还是有一定门槛，需要数学、图形学、着色器编程语言等比较专业的知识。同样在这个领域，也已经存在一片“花园”了，我们可以采用框架来使用WebGL，比如 `three.js`。
