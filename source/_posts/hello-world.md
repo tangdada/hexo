@@ -5,13 +5,12 @@ title: 写给后端的前端课
 先上个结论，目前的Web前端体系就是以HTML + CSS + JavaScript三项技术为基础而构建的图形界面交互系统。
 HTML是文字，CSS是颜料，JavaScript是笔和橡皮。
 
-当我踏入世界的时候，它已经是一片花园了。可是这一切是怎么形成的呢？
-
-追本溯源的有趣之处在于发现这个错综复杂，包罗万象，甚至被称为“宇宙”的系统，原来只是因为50年多前那只“蝴蝶”笨拙的煽动了一下翅膀。
-
 接下来我将从起源、演进、实战、扩张四个部分来介绍这个体系。
 
 # 一、起源
+当我踏入世界的时候，它已经是一片花园了。可是这一切是怎么形成的呢？
+
+追本溯源的有趣之处在于发现这个错综复杂，包罗万象，甚至被称为“宇宙”的系统，原来只是因为50多年前那只“蝴蝶”笨拙的煽动了一下翅膀。
 
 ## 1.1 万维网
 
@@ -91,7 +90,7 @@ span {
 这个阶段还没有Web前端这个细分工种，开发者以使用的后端语言来划分，比如说做Java的，做C++的。
 
 ### 静态页
-这个阶段不长，自1990年HTML发明开始至1994年W3C成立，之后很快就出现了动态开发HTML的语言。
+静态页的阶段不长，自1990年HTML发明开始至1994年W3C成立，之后很快就出现了动态开发HTML的语言。
 
 世界上第一个web网页（被恢复的副本）：http://info.cern.ch/ ，其代码如下：
 ```html
@@ -722,7 +721,7 @@ export default router
 ## 3.5 添加业务代码
 为了更加快速的实现业务功能，我们可以引入生态中开源的UI组件库，组件库中包含了按钮、表格、表单等常用基础组件。
 
-组件库下前端开发生态中位置：
+组件库在前端开发生态中位置：
 ![前端体系层级.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6f7b0e914eed478bafbe68838800a43b~tplv-k3u1fbpfcp-watermark.image?)
 
 这里我们使用饿了么的组件库[element-ui@2.15.7](https://element.eleme.cn/#/zh-CN/component/installation)，在项目根目录下运行如下命令，下载组件库代码包：
@@ -1102,7 +1101,7 @@ server.listen(port, hostname, () => {
 然后在文件目录命令行执行：`node ./server.js` 即可启动一个最简单的api服务。最后浏览器打开控制台输出的链接查看结果。
 
 #### Egg.js
-Egg.js是一个阿里团队基于Node.js和Koa打造的一个企业级后端服务框架，它是开源的。下面我们使用它来写两个链接mongo数据库的api接口。\
+Egg.js是一个阿里团队基于Node.js和Koa打造的一个企业级后端服务框架，它是开源的。下面我们使用它来写两个连接mongo数据库的api接口。\
 前提：npm版本 >=6.1.0，准备一个本地或者远程能链接的 [mongoDB数据库](https://cloud.mongodb.com/)。
 
 1. 初始化项目
@@ -1230,7 +1229,8 @@ npm run dev
 2. hybrid app，使用原生语言+Web语言混合开发
 3. web app，使用Web语言开发
 
-相比原生开发或者使用FLutter（Dart语言），Web语言通过容器和转译的方式，使得APP开发更加便捷和容易，虽然牺牲了性能和体验。目前比较成熟的Web跨端开发的框架包括：React Native、uni-app、taro。
+相比原生开发或者使用FLutter（Dart语言），Web语言通过容器和转译的方式，使得APP开发更加便捷和容易，虽然牺牲了性能和体验。\
+目前比较成熟的Web跨端开发的框架包括：React Native、uni-app、taro。
 
 **桌面应用**\
 思路都是使用html+css+js的方式来实现桌面端应用，目前比较流行的框架包括Electron 和 Tauri，其中Electron的技术方案是Chromium + Nodejs，Tauri是采用Webview + Rust语言来实现。
