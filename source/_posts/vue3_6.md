@@ -2,6 +2,8 @@
 title: 六、服务端渲染
 ---
 
+文章来源：《Vue.js设计与实现》---霍春阳
+
 ### 同构渲染
 Vue.js 可以在浏览器运行，也可以在 Node.js 环境中运行。
 Vue.js 作为现代前端框架，不仅能够独立地进行CSR 或 SSR，还能够两者结合，形成所谓的同构渲染(isomorphic rendering)。
